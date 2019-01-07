@@ -13,6 +13,7 @@
 2. Add permissions to AndroidManifest file
 < USES - the permission of the android: name = "android. Permission. RECEIVE_BOOT_COMPLETED"
 / >
+
 ![](https://github.com/PicoSupport/BootComplete/blob/master/assets/01.png)
 
 3. Fix Activity in AndroidManifest file:
@@ -46,6 +47,7 @@ The android: name = "com. Example. Bootcomplete. MainActivity"
 3.AndroidManifest文件中修正Activity：
 
    android:name="com.example.bootcomplete.MainActivity"
+   
    ![](https://github.com/PicoSupport/BootComplete/blob/master/assets/02.png)
 
 4.AndroidManifes文件中添加广播 
