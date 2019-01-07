@@ -19,7 +19,8 @@
 The android: name = "com. Example. Bootcomplete. MainActivity"
 ![](https://github.com/PicoSupport/BootComplete/blob/master/assets/02.png)
 
-4. Adding radio in manifestations file 
+4. Adding radio in manifestations file
+
 ![](https://github.com/PicoSupport/BootComplete/blob/master/assets/03.png)
 
 5. Note: it needs to be opened once before starting and restarting can take effect
@@ -48,6 +49,7 @@ The android: name = "com. Example. Bootcomplete. MainActivity"
    ![](https://github.com/PicoSupport/BootComplete/blob/master/assets/02.png)
 
 4.AndroidManifes文件中添加广播 
+
 ![](https://github.com/PicoSupport/BootComplete/blob/master/assets/03.png)
 
 5.注意：需要先打开一次，开机重启才能生效
