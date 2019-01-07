@@ -8,7 +8,7 @@
 
 # Unity项目中实现开机自启
 
-1.新建Unity工程，把Demo中的Plugins->Android中的PicoVRBootComplete_xxx.jar包，拷贝到Unity工程对应的目录下
+1.新建Unity工程，把assets中的PicoVRBootComplete.jar包，拷贝到Unity工程中Plugins->Android的目录下
 
 2.AndroidManifest文件增加权限
 
