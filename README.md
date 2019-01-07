@@ -20,6 +20,7 @@ The android: name = "com. Example. Bootcomplete. MainActivity"
 ![](https://github.com/PicoSupport/BootComplete/blob/master/assets/02.png)
 
 4. Adding radio in manifestations file
+
 ![](https://github.com/PicoSupport/BootComplete/blob/master/assets/03.png)
 
 5. Note: it needs to be opened once before starting and restarting can take effect
