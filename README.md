@@ -1,3 +1,26 @@
+# Instructions for starting APK
+
+1. After installing apk, run apk
+
+2. Restart the device
+
+3. Apk starts automatically after restart
+
+# Startup in Unity project
+
+1. Create a new Unity project and copy the picovrbootcomplex. jar package in assets into the plugins-> Android directory of the Unity project
+
+2. Add permissions to AndroidManifest file
+< USES - the permission of the android: name = "android. Permission. RECEIVE_BOOT_COMPLETED"
+/ >
+
+3. Fix Activity in AndroidManifest file:
+The android: name = "com. Example. Bootcomplete. MainActivity"
+
+4. Adding radio in manifestations file
+
+5. Note: it needs to be opened once before starting and restarting can take effect
+
 # 开机自启APK使用说明
 
 1.安装apk之后，运行apk
