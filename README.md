@@ -13,11 +13,14 @@
 2. Add permissions to AndroidManifest file
 < USES - the permission of the android: name = "android. Permission. RECEIVE_BOOT_COMPLETED"
 / >
+![](https://github.com/PicoSupport/BootComplete/blob/master/assets/01.png)
 
 3. Fix Activity in AndroidManifest file:
 The android: name = "com. Example. Bootcomplete. MainActivity"
+![](https://github.com/PicoSupport/BootComplete/blob/master/assets/02.png)
 
 4. Adding radio in manifestations file
+![](https://github.com/PicoSupport/BootComplete/blob/master/assets/03.png)
 
 5. Note: it needs to be opened once before starting and restarting can take effect
 
@@ -37,11 +40,15 @@ The android: name = "com. Example. Bootcomplete. MainActivity"
 
    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"
 />
+![](https://github.com/PicoSupport/BootComplete/blob/master/assets/01.png)
 
 3.AndroidManifest文件中修正Activity：
 
    android:name="com.example.bootcomplete.MainActivity"
+   ![](https://github.com/PicoSupport/BootComplete/blob/master/assets/02.png)
 
 4.AndroidManifes文件中添加广播
+
+![](https://github.com/PicoSupport/BootComplete/blob/master/assets/03.png)
 
 5.注意：需要先打开一次，开机重启才能生效
