@@ -2,6 +2,8 @@
 
 # Instructions for starting APK
 
+Note: Regarding java package creation and usege, please refer to [the Guideline](https://github.com/PicoSupport/PicoSupport/blob/master/Call%20And%20Export%20Jar.docx)
+
 1. After installing apk, run apk
 
 2. Restart the device
