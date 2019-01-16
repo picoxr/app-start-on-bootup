@@ -5,23 +5,21 @@ Note: Regarding java package creation and usage, please refer to [the Guideline]
 1. Add permissions in AndroidManifest file
 
 ```
-< USES - the permission of the android: name = "android. Permission. RECEIVE_BOOT_COMPLETED"
-/ >
+<USES-the permission of the android:name = "android.Permission.RECEIVE_BOOT_COMPLETED"/>
 ```
-
 
 ![](https://github.com/PicoSupport/BootComplete/blob/master/assets/01.png)
 
-3. Modify MainActivity in AndroidManifest file:
+2. Modify MainActivity in AndroidManifest file:
 
 ```
 The android: name = "com. Example. Bootcomplete. MainActivity"
 ```
 ![](https://github.com/PicoSupport/BootComplete/blob/master/assets/02.png)
 
-4. Register system broadcast in AndroidManifest file
+3. Register system broadcast in AndroidManifest file
 
  ![](https://github.com/PicoSupport/BootComplete/blob/master/assets/03.png)
 
-5. Note: it is required to run the application before next device boot-up
+4. Note: it is required to run the application before next device boot-up
 
