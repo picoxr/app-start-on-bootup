@@ -1,10 +1,8 @@
-Note: Regarding java package creation and usage, please refer to [the Guideline](https://github.com/PicoSupport/PicoSupport/blob/master/How_to_use_JAR_file_in_Unity_project_on_Pico_device.docx)
-
 # How to use this JAR file in Unity project
 
-1. Create a new Unity project and copy the picovrbootcomplex. Put JAR file into the plugins-> Android directory of the Unity project
+Note: Regarding java package creation and usage, please refer to [the Guideline](https://github.com/PicoSupport/PicoSupport/blob/master/How_to_use_JAR_file_in_Unity_project_on_Pico_device.docx)
 
-2. Add permissions in AndroidManifest file
+1. Add permissions in AndroidManifest file
 < USES - the permission of the android: name = "android. Permission. RECEIVE_BOOT_COMPLETED"
 / >
 
