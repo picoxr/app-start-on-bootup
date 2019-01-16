@@ -1,22 +1,22 @@
 Note: Regarding java package creation and usage, please refer to [the Guideline](https://github.com/PicoSupport/PicoSupport/blob/master/How_to_use_JAR_file_in_Unity_project_on_Pico_device.docx)
 
-# Startup in Unity project
+# How to use this JAR file in Unity project
 
-1. Create a new Unity project and copy the picovrbootcomplex. jar package in assets into the plugins-> Android directory of the Unity project
+1. Create a new Unity project and copy the picovrbootcomplex. Put JAR file into the plugins-> Android directory of the Unity project
 
-2. Add permissions to AndroidManifest file
+2. Add permissions in AndroidManifest file
 < USES - the permission of the android: name = "android. Permission. RECEIVE_BOOT_COMPLETED"
 / >
 
 ![](https://github.com/PicoSupport/BootComplete/blob/master/assets/01.png)
 
-3. Fix Activity in AndroidManifest file:
+3. Modify MainActivity in AndroidManifest file:
 The android: name = "com. Example. Bootcomplete. MainActivity"
 ![](https://github.com/PicoSupport/BootComplete/blob/master/assets/02.png)
 
-4. Adding radio in manifestations file
+4. Register system broadcast in AndroidManifest file
 
 ![](https://github.com/PicoSupport/BootComplete/blob/master/assets/03.png)
 
-5. Note: it needs to be opened once before starting and restarting can take effect
+5. Note: it is required to run the application before next device boot-up
 
