@@ -14,7 +14,7 @@ The android: name = "com. Example. Bootcomplete. MainActivity"
 
 4. Register system broadcast in AndroidManifest file
 
-![](https://github.com/PicoSupport/BootComplete/blob/master/assets/03.png)
+ ![](https://github.com/PicoSupport/BootComplete/blob/master/assets/03.png)
 
 5. Note: it is required to run the application before next device boot-up
 
