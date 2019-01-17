@@ -2,16 +2,14 @@
 
 Note: Regarding java package creation and usage, please refer to [the Guideline](https://github.com/PicoSupport/PicoSupport/blob/master/How_to_use_JAR_file_in_Unity_project_on_Pico_device.docx)
 
-## Add permissions 
-
+## ModifyAndroidManifest
+Add permissions 
 ```
 <USES-the permission of the android:name = "android.Permission.RECEIVE_BOOT_COMPLETED"/>
 ```
-
 ![](https://github.com/PicoSupport/BootComplete/blob/master/assets/01.png)
 
-## ModifyAndroidManifest
-
+## ClassName
 ```
 The android: name = "com. Example. Bootcomplete. MainActivity"
 ```
