@@ -7,7 +7,6 @@ Add permissions
 ```
 <USES-the permission of the android:name = "android.Permission.RECEIVE_BOOT_COMPLETED"/>
 ```
-![](https://github.com/PicoSupport/BootComplete/blob/master/assets/01.png)
 
 ## ClassName
 ```
@@ -15,7 +14,13 @@ android: name = "com.Example.Bootcomplete.MainActivity"
 ```
 ## Register system broadcast 
 
- ![](https://github.com/PicoSupport/BootComplete/blob/master/assets/03.png)
+```
+<receiver android:name=".BootReceiver" >
+            <intent-filter android:priority="1000">
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+```
 
 Note: it is required to run the application before next device boot-up
 
