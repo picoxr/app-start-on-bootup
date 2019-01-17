@@ -10,7 +10,7 @@ Add permission
 
 ## ClassName
 ```
-android: name = "com.Example.Bootcomplete.MainActivity"
+android:name = "com.Example.Bootcomplete.MainActivity"
 ```
 ## Register system broadcast 
 
