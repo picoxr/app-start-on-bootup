@@ -11,11 +11,9 @@ Add permissions
 
 ## ClassName
 ```
-The android: name = "com. Example. Bootcomplete. MainActivity"
+android: name = "com.Example.Bootcomplete.MainActivity"
 ```
-![](https://github.com/PicoSupport/BootComplete/blob/master/assets/02.png)
-
-## Register system broadcast in AndroidManifest file
+## Register system broadcast 
 
  ![](https://github.com/PicoSupport/BootComplete/blob/master/assets/03.png)
 
