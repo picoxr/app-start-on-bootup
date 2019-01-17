@@ -3,9 +3,9 @@
 Note: Regarding JAR file creation and usage, please refer to [the Guideline](https://github.com/picoxr/support/blob/master/How_to_use_JAR_file_in_Unity_project_on_Pico_device.docx)
 
 ## ModifyAndroidManifest
-Add permissions 
+Add permission  
 ```
-<USES-the permission of the android:name = "android.Permission.RECEIVE_BOOT_COMPLETED"/>
+<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 ```
 
 ## ClassName
