@@ -19,7 +19,7 @@ android: name = "com.Example.Bootcomplete.MainActivity"
             <intent-filter android:priority="1000">
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
-        </receiver>
+</receiver>
 ```
 
 Note: it is required to run the application before next device boot-up
