@@ -1,6 +1,6 @@
 # How to use this JAR file in Unity project
 
-Note: Regarding JAR file creation and usage, please refer to [the Guideline](https://github.com/picoxr/support/blob/master/How_to_use_JAR_file_in_Unity_project_on_Pico_device.docx)
+Note: Regarding JAR file creation and usage, please refer to [the Guideline](https://github.com/picoxr/support/commits/master/How%20to%20use%20JAR%20file%20in%20Unity%20project%20on%20Pico%20Device.docx)
 
 ## ModifyAndroidManifest
 Add permission  
