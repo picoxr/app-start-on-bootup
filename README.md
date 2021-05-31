@@ -6,16 +6,17 @@ Note: Regarding JAR file creation and usage, please refer to [the Guideline](htt
 Add permission  
 ```
 <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+<uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
 ```
 
 ## ClassName
 ```
-android:name = "com.Example.Bootcomplete.MainActivity"
+android:name = "com.example.bootcomplete.MainActivity"
 ```
 ## Register system broadcast 
 
 ```
-<receiver android:name=".BootReceiver" >
+<receiver android:name="com.example.bootcomplete.BootReceiver" >
             <intent-filter android:priority="1000">
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
